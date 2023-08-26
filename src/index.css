@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    @apply bg-gray-20;
+    @apply text-gray-500;
+}
+
+@layer components {
+    .flex-between{
+        @apply flex items-center justify-between
+    }
+
+    .flex-center{
+        @apply flex items-center justify-center
+    }
+
+    .primary-btn{
+        @apply rounded-md py-2 px-5 bg-secondary-400 hover:bg-primary-500 ease-in duration-200 shadow-lg shadow-secondary-400/40 hover:shadow-primary-500/40 active:hover:scale-95 text-white
+    }
+}

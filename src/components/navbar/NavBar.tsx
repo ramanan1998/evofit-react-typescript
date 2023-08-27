@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="flex-center fixed top-0 z-30 w-screen p-2">
+    <nav className="flex-center fixed top-0 z-30 w-screen p-2 bg-primary-500 text-white">
         <div className="flex-between flex-row w-full md:w-5/6  p-1">
             <div className="flex-center flex-row gap-2">
                 <h1 className="text-3xl font-bold">EVOFIT</h1>

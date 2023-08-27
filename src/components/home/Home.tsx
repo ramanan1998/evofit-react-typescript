@@ -4,7 +4,7 @@ import { ASSET } from '@/assets/assets'
 
 function Home() {
   return (
-    <section id='home' className='w-full px-2 md:px-[10%] h-auto flex-between flex-col md:flex-row gap-10 mx-auto pt-[100px] md:pt-[150px] relative'>
+    <section id='home' className='w-full px-2 md:px-[10%] h-auto md:h-screen flex-between flex-col md:flex-row gap-10 mx-auto pt-[100px] md:pt-[150px] relative'>
         <div className='hidden md:block absolute top-[150px] left-10'>
             <img src={ASSET.EVOLVE} alt="img" />
         </div>

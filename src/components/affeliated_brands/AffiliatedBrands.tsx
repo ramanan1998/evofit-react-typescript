@@ -31,7 +31,7 @@ const AffiliatedBrands = () => {
 
   return (
     <div 
-      className="h-32 w-full bg-gray-50 my-2"
+      className="h-40 w-full bg-gray-50 mt-2"
     >
       <motion.div
         className="flex-between justify-evenly flex-row h-full"

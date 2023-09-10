@@ -1,6 +1,8 @@
 import NavBar from "./components/navbar/NavBar"
 import Home from "./components/home/Home"
 import AffiliatedBrands from "./components/affeliated_brands/AffiliatedBrands";
+import Benefits from "./components/benefits/Benefits";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
@@ -9,7 +11,8 @@ function App() {
       <NavBar/>
       <Home/>
       <AffiliatedBrands/>
-      <div className="h-[50vh]"></div>
+      <Benefits/>
+      <Footer/>
     </div>
   )
 }

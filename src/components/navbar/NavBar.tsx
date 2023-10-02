@@ -1,22 +1,25 @@
+import PrimaryButton from "../reusable_components/PrimaryButton"
+
 const NavBar = () => {
   return (
-    <nav className="flex-center fixed top-0 z-30 w-screen p-2 bg-primary-100 text-gray-500">
+    <nav className="flex-center fixed top-0 z-30 w-screen px-2 py-3 bg-primary-100 text-black">
         <div className="flex-between flex-row w-full md:w-5/6  p-1">
             <div className="flex-center flex-row gap-2">
                 <h1 className="text-3xl font-bold">EVOFIT</h1>
-                <div className="h-[25px] w-[25px] bg-primary-500 rounded-full"></div>
+                {/* <div className="h-[25px] w-[25px] bg-primary-500 rounded-full"></div> */}
             </div>
             <div className="hidden md:flex-between flex-row gap-x-32">
-                <div className="flex-between flex-row gap-10">
+                <div className="flex-between flex-row gap-10 font-bold">
                     <a href="/">Home</a>
-                    <a href="/">Benefits</a>
-                    <a href="/">Our class</a>
-                    <a href="/">Contact us</a>
+                    <a href="#why-us">Why us</a>
+                    <a href="#we-provide">What we provide</a>
+                    <a href="#our-happy-members">Our happy members</a>
+                    <a href="#contact-us">Contact us</a>
                 </div>
                 <div>
-                    <button className="primary-btn">
+                    <PrimaryButton onClick={() => window.location.href = "#contact-us"}>
                        Become a Member
-                    </button>
+                    </PrimaryButton>
                 </div>
             </div>
             <button className="block md:hidden primary-btn rounded-full p-3 shadow-none">

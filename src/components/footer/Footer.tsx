@@ -1,11 +1,10 @@
 
 function Footer() {
   return (
-    <footer className="bg-primary-100 flex-between items-start flex-col md:flex-row p-5 gap-5 md:px-24 md:py-10">
+    <footer className="bg-primary-100 flex-between items-start flex-col md:flex-row p-5 gap-5 md:px-24 md:py-14">
         <div className="md:w-1/2 space-y-5">
             <div className="flex items-center flex-row gap-2">
                 <h1 className="text-3xl font-bold">EVOFIT</h1>
-                <div className="h-[25px] w-[25px] bg-primary-500 rounded-full"></div>
             </div>
             <div>
                 <h1>Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum purus et arcu massa dictum condimentum. Augue scelerisque iaculis orci ut habitant laoreet. Iaculis tristique.</h1>

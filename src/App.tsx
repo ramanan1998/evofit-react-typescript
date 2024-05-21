@@ -4,7 +4,8 @@ import AffiliatedBrands from "./components/affeliated_brands/AffiliatedBrands";
 import Benefits from "./components/benefits/Benefits";
 import Footer from "./components/footer/Footer";
 import JoinNow from "./components/join_now/JoinNow";
-import HappyMembers from "./components/testimonials/HappyMembers";
+import WhatWeProvide from "./components/what_we_provide/WhatWeProvide";
+// import HappyMembers from "./components/testimonials/HappyMembers";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Home/>
       <AffiliatedBrands/>
       <Benefits/>
-      <HappyMembers/>
+      {/* <HappyMembers/> */}
+      <WhatWeProvide/>
       <JoinNow/>
       <Footer/>
     </div>

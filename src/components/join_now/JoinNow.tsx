@@ -4,7 +4,7 @@ import PrimaryButton from "../reusable_components/PrimaryButton"
 
 function JoinNow() {
   return (
-    <section id="contact-us" className="bg-white px-2 md:px-24 pt-32 flex-between flex-col md:flex-row">
+    <section id="contact-us" className="bg-white px-2 md:px-24 pt-32 pb-10 flex-between flex-col md:flex-row">
         <div className="space-y-5 md:w-1/2">
             <HeaderText>
                 <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
